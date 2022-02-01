@@ -1,6 +1,12 @@
 # misakabench
 一个来自于御坂网络的VPS的测试脚本，修改自teddysun的bench.sh
 
+## 预览
+
+本处采用的VPS测试样机为Oracle Cloud墨尔本的AMD实例
+
+![image](https://user-images.githubusercontent.com/96560028/151930638-bf10fb0b-1107-4542-b62f-6b9ae110f7a8.png)
+
 ## 使用方法
 
 ```shell
