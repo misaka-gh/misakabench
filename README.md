@@ -8,3 +8,5 @@
 ## 感谢
 
 Teddysun：https://github.com/teddysun/across
+
+Speedtest.net https://www.speedtest.net/
