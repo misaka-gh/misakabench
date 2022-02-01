@@ -3,7 +3,9 @@
 
 ## 使用方法
 
-待开发ing...
+```shell
+wget -N https://cdn.jsdelivr.net/gh/Misaka-blog/misakabench@master/misakabench.sh && chmod -R 777 misakabench.sh && bash misakabench.sh
+```
 
 ## 感谢
 
