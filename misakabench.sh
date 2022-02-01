@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-ver="1.0"
-changeLog=""
+ver="1.0.1"
+changeLog="删除部分境外测速节点，修改境内测速点为国际出口"
 
 trap _exit INT QUIT TERM
 
@@ -66,19 +66,15 @@ speed_test() {
 }
 
 speed() {
-    speed_test '' 'Speedtest.net'
-    speed_test '24447' '中国上海'
-    speed_test '26352' '中国南京'
-    speed_test '27594' '中国广州'
+    speed_test '' 'speedtest'
+    speed_test '47066' '广州移动'
+    speed_test '25637' '上海移动'
+    speed_test '3633' '上海联通'
     speed_test '32155' '中国香港'
     speed_test '15047' '日本东京'
-    speed_test '6527'  '韩国首尔'
     speed_test '25960' '新加坡'
-    speed_test '24215' '法国巴黎'
-    speed_test '28922' '荷兰阿姆斯特丹'
+    speed_test '4769' '卢森堡'
     speed_test '21541' '美国洛杉矶'
-    speed_test '43860' '美国达拉斯'
-    speed_test '40879' '加拿大蒙特利尔'   
 }
 
 io_test() {
@@ -209,7 +205,7 @@ install_speedtest() {
 print_intro() {
     echo "--------------------- A Bench Script By Misaka No --------------------"
     echo "                     Blog: https://owo.misaka.rest                    "
-    echo "版本号：$ver"
+    echo "版本号：v$ver"
     echo "更新日志：$changeLog"
 }
 
@@ -323,7 +319,7 @@ ipv4_info
 next
 print_io_test
 next
-install_speedtest && printf "%-26s%-22s%-20s%-20s\n" " 测速点位置及名称" "上传速度" "下载速度" "延迟"
+install_speedtest && printf "%-20s%-20s%-26s%-20s\n" " 测速点位置" "上传速度" "下载速度" "延迟"
 speed && rm -fr speedtest-cli
 next
 print_end_time
