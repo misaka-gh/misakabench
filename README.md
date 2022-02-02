@@ -3,7 +3,7 @@
 
 ## 预览
 
-本处采用的VPS测试样机为Oracle Cloud墨尔本的AMD实例
+本处采用的VPS测试样机为Oracle Cloud墨尔本的AMD实例（现已封号，忠告你们别闲的没事跑测速！！！我测脚本直接被封了一个甲骨文号）
 
 ![image](https://user-images.githubusercontent.com/96560028/151930638-bf10fb0b-1107-4542-b62f-6b9ae110f7a8.png)
 
