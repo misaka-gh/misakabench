@@ -15,6 +15,8 @@ wget -N https://raw.githubusercontent.com/Misaka-blog/misakabench/master/misakab
 
 ## 更新日志
 
+Ver 1.0.2 修复广州测速节点
+
 Ver 1.0.1 删除部分境外测速节点，修改境内测速点为国际出口
 
 ## 感谢
