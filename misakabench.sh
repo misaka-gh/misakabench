@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-ver="1.0.1"
-changeLog="删除部分境外测速节点，修改境内测速点为国际出口"
+ver="1.0.2"
+changeLog="修复广州测速节点"
 
 trap _exit INT QUIT TERM
 
@@ -67,7 +67,7 @@ speed_test() {
 
 speed() {
     speed_test '' 'speedtest'
-    speed_test '47066' '广州移动'
+    speed_test '27594' '广州电信'
     speed_test '25637' '上海移动'
     speed_test '3633' '上海联通'
     speed_test '32155' '中国香港'
