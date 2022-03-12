@@ -10,7 +10,7 @@
 ## 使用方法
 
 ```shell
-wget -N https://cdn.jsdelivr.net/gh/Misaka-blog/misakabench@master/misakabench.sh && chmod -R 777 misakabench.sh && bash misakabench.sh
+wget -N https://raw.githubusercontent.com/Misaka-blog/misakabench/master/misakabench.sh && chmod -R 777 misakabench.sh && bash misakabench.sh
 ```
 
 ## 更新日志
