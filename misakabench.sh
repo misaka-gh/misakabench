@@ -324,3 +324,4 @@ speed && rm -fr speedtest-cli
 next
 print_end_time
 next
+rm -f misakabench.sh
