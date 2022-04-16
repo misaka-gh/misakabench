@@ -68,8 +68,8 @@ speed_test() {
 speed() {
     speed_test '' 'speedtest'
     speed_test '27594' '广州电信'
-    speed_test '3633' '上海联通'
-    speed_test '24447' '上海电信'
+    speed_test '3633' '上海电信'
+    speed_test '24447' '上海联通'
     speed_test '16176' '中国香港'
     speed_test '44988' '日本东京'
     speed_test '4235' '新加坡'
