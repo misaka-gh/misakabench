@@ -72,9 +72,9 @@ speed() {
     speed_test '24447' '上海联通'
     speed_test '16176' '中国香港'
     speed_test '44988' '日本东京'
-    speed_test '4235' '新加坡'
-    speed_test '4769' '卢森堡'
-    speed_test '21541' '美国洛杉矶'
+    speed_test '13623' '新加坡  '
+    speed_test '4769' '卢森堡  '
+    speed_test '21541' '洛杉矶  '
 }
 
 io_test() {
