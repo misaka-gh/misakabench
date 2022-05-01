@@ -1,6 +1,8 @@
 # misakabench
 一个来自于御坂网络的VPS的测试脚本，修改自teddysun的bench.sh
 
+如对脚本不放心，可使用此沙箱先测一遍再使用：https://killercoda.com/playgrounds/scenario/ubuntu
+
 ## 预览
 
 本处采用的VPS测试样机为Oracle Cloud墨尔本的AMD实例（现已封号，忠告你们别闲的没事跑测速！！！我测脚本直接被封了一个甲骨文号）
