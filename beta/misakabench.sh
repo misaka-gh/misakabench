@@ -154,9 +154,9 @@ check_virt(){
 }
 
 ipv4_info() {
-    local org="$(wget -q -T10 -O- ip.gs/asn)"
-    local country="$(wget -q -T10 -O- ip.gs/country)"
-    local region="$(wget -q -T10 -O- ip.gs/city)"
+    local org="$(curl -sm8 ip.gs/asn)"
+    local country="$(curl -sm8 ip.gs/country)"
+    local region="$(curl -sm8 ip.gs/city)"
     if [[ -n "$org" ]]; then
         echo " ASN组织           : $(_blue "$org")"
     fi
