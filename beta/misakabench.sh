@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-ver="1.0.2"
-changeLog="修复广州测速节点"
+ver="1.0.3"
+changeLog="新增了超多的测试节点~"
 
 trap _exit INT QUIT TERM
 
@@ -207,10 +207,9 @@ install_speedtest() {
 }
 
 print_intro() {
-    echo "--------------------- A Bench Script By Misaka No --------------------"
-    echo "                     Blog: https://owo.misaka.rest                    "
-    echo "版本号：v$ver"
-    echo "更新日志：$changeLog"
+    echo "-------------------- A Bench Script By Misaka-blog -------------------"
+    echo " 版本号：v$ver"
+    echo " 更新日志：$changeLog"
 }
 
 # Get System information
