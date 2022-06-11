@@ -66,20 +66,20 @@ speed_test() {
 }
 
 speed() {
-    speed_test2 '' 'speedtest'
-    speed_test2 '21541' '洛杉矶\t'
-    speed_test2 '13623' '新加坡\t'
-    speed_test2 '44988' '日本东京'
-    speed_test2 '16176' '中国香港'
-    speed_test2 '3633' '电信上海' '电信'
+    speed_test '' 'speedtest'
+    speed_test '21541' '洛杉矶'
+    speed_test '13623' '新加坡'
+    speed_test '44988' '日本东京'
+    speed_test '16176' '中国香港'
+    speed_test '3633' '电信上海' '电信'
     # speed_test '27594' '电信广东广州5G' '电信'
-    speed_test2 '5396' '电信江苏苏州5G' '电信'
-    speed_test2 '24447' '联通上海' '联通'
-    speed_test2 '26678' '联通广东广州5G' '联通'
+    speed_test '5396' '电信江苏苏州5G' '电信'
+    speed_test '24447' '联通上海' '联通'
+    speed_test '26678' '联通广东广州5G' '联通'
     # speed_test '4870' '联通湖南长沙' '联通'
     # speed_test '15863' '移动广西南宁' '移动'
-    speed_test2 '16398' '移动贵州贵阳' '移动'
-    speed_test2 '27249' '移动江苏南京5G' '移动'
+    speed_test '16398' '移动贵州贵阳' '移动'
+    speed_test '27249' '移动江苏南京5G' '移动'
 }
 
 io_test() {
@@ -154,13 +154,13 @@ check_virt(){
 }
 
 ipv4_info() {
-    local org="$(curl -sm8 ip.gs/asn)"
-    local country="$(curl -sm8 ip.gs/country)"
-    local region="$(curl -sm8 ip.gs/city)"
+    local org="$(curl -sm8 https://ipget.net/asn)"
+    local country="$(curl -sm8 https://ipget.net/country)"
+    local region="$(curl -sm8 https://ipget.net/city)"
     if [[ -n "$org" ]]; then
-        echo " ASN组织           : $(_blue "$org")"
+        echo " ASN               : $(_blue "$org")"
     fi
-    if [[ -n "country" ]]; then
+    if [[ -n "$country" ]]; then
         echo " 位置              : $(_blue "$country")"
     fi
     if [[ -n "$region" ]]; then
