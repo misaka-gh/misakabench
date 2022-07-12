@@ -12,7 +12,7 @@
 ## 使用方法
 
 ```shell
-wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/misakabench/master/misakabench.sh && bash misakabench.sh
+wget -N --no-check-certificate https://raw.githubusercontents.com/misaka-gh/misakabench/master/misakabench.sh && bash misakabench.sh
 ```
 
 ## 更新日志
